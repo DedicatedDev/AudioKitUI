@@ -23,7 +23,7 @@ public class FragmentBuilder {
     var isFilled: Bool = true
     var isFFT: Bool = false
 
-    init(foregroundColor: CGColor = Color.white.cg,
+    public init(foregroundColor: CGColor = Color.white.cg,
          isCentered: Bool = true,
          isFilled: Bool = true,
          isFFT: Bool = false)
