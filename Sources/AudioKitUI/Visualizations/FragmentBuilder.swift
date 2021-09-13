@@ -34,7 +34,7 @@ public class FragmentBuilder {
         self.isFFT = isFFT
     }
 
-    var stringValue: String {
+    public var stringValue: String {
         return """
         float sample = waveform.sample(s, \(isFFT ? "(pow(10, in.t.x) - 1.0) / 9.0" : "in.t.x")).x;
 
